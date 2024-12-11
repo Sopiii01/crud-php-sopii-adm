@@ -1,7 +1,7 @@
 <?php
 include 'koneksi.php';
 
-$sql = "SELECT * FROM mahasiswa";
+$sql = "SELECT * FROM mahasiswa INNER JOIN jurusan ON mahasiswa.jurusan_id = jurusan.id"; 
 $result = $conn->query($sql);
 ?>
 
