@@ -33,7 +33,7 @@ $result = $conn->query($sql);
             <td><?php echo $row['nim']; ?></td>
             <td><?php echo $row['email']; ?></td>
             <td><?php echo $row['nomor']; ?></td>
-            <td><?php echo $row['Jurusan']; ?></td>
+            <td><?php echo $row['nama_jurusan']; ?></td>
             <td>
                 <a herf="edit_mahasiswa.php?id=<?php echo $row['id']; ?>">Edit</a> |
                 <a herf="hapus_mahasiswa.php?id=<?php echo $row['id']; ?>">Hapus</a>
